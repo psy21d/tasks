@@ -144,7 +144,6 @@ export default {
   },
   methods: {
     send() {
-      console.log(this.vv);
       window.vv = this.vv;
       this.vv.$touch();
       if (this.vv.$invalid) return;
